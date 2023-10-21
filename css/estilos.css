@@ -1,0 +1,70 @@
+/**/
+html{
+    background-color: rgb(20, 20,20 );
+}
+
+header{
+    
+    background-image: url(../assets/img/Yone.jpg);/*Este es el fondo del header*/
+    background-size: cover;/*Para que no se repita la imagen*/
+    position:sticky;/*Para que el header siempre se muestre*/
+    top:0%;  
+}
+.merche{
+    display: flex;
+    justify-content: end;
+    margin: 0;
+}
+
+.links{
+    background-color: #ddd;
+    list-style-type: none;
+    border: solid #ddd 0.4rem;
+    border-radius: 5px ;
+    margin-right: 5px;
+}
+h1,footer{
+    text-align: center;
+    color: white;
+}
+.presentacion{
+    margin-left: 40%;
+}
+
+/*Acá inicia la imagen del medio de Yone*/
+
+
+
+/*Inicia el logo*/
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+
+/*Los parrafos en general*/
+p{
+    background-color:rgb(9, 7, 71);
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*Esto es el formulario de contacto*/
+textarea{
+    resize: none;
+    height: 150px;
+    width: 500px;
+}
+.asesino{
+    width:50px;
+    height: 50px;
+}
+/*
+@media (max-width: 768px) {
+    header {
+        background-image: url(../assets/img/fondocel.png);
+        background-size: cover;
+        background-position: top;
+    }
+    }
+    Esto era para que la imagen se adapte a telefonos moviles pero lo pospongo para cuando tenga la página mas avanzada*/   
